@@ -10,7 +10,7 @@
 
 .hero {
     height: 100vh;
-    background-color: #190f43;
+    background-color: #000000;
     color: white;
     font-size: 30px;
 }
@@ -64,7 +64,7 @@ li{
     width: 150px;
     font-size: 18px;
     border-radius: 2.5vh;
-    background-color: #fbb666;
+    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,10 @@ li{
 }
 
 .about-button:hover{
-    background-color: #fdce98;
+    background-color: #fff;
+    color: red;
+    border-color: red;
+    border: 1px bold red;
     cursor: pointer;
 }
 
@@ -97,6 +100,7 @@ li{
 }
 
 .headshot {
+    height: 280px;
     width: 250px;
     border-radius: 50%;
     margin-bottom: 5vh;
@@ -112,11 +116,12 @@ blockquote{
 }
 
 #projects{
-    background-color: #fbb666;
+    background-color: #000000;
 }
 
 #projects h2{
     font-weight: bolder;
+    color: #fff;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -149,7 +154,7 @@ a {
 }
 
 table{
-    width: 500px;
+    width: 100vw;
     height: 50vh;
     text-align: center;
     font-size: large;
@@ -186,19 +191,19 @@ table td {
 
 
 ul a:hover{
-    background-color: darkgray;
+    background-color: white;
     cursor: pointer;
     border-radius: 45px;
 }
 
 .socials a:hover{
-    background-color: darkgray;
+    background-color: white;
     cursor: pointer;
     border-radius: 15px;
 }
 
 footer {
-    background-color: #55231d;
+    background-color: black;
     padding: 50px;
 }
 
@@ -279,19 +284,19 @@ form h1{
 
     ul {
         display: none;
-        background-color: #fbb666;
+        background-color: red;
         margin: 0px;
     }
 
     ul.show{
         display: block;
-        background-color: #fbb666;
+        background-color: red;
     }
 
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #fbb666;
+        background-color: red;
     }
 
     .logo{
