@@ -189,6 +189,8 @@ table a{
 table a:hover{
     border: 1px solid red;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 table tr {
@@ -214,12 +216,16 @@ ul a:hover{
     background-color: #000;
     border: 1px solid red;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .socials a:hover{
     background-color: #000;
     border: 1px solid red;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 footer {
