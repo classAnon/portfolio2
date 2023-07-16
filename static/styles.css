@@ -73,7 +73,7 @@ li{
 
 .about-button:hover{
     background-color: #fff;
-    color: red;
+    color: red !important;
     border: 1px solid red;
     cursor: pointer;
 }
@@ -132,6 +132,32 @@ blockquote{
     display: flex;
     justify-content: center;
 }
+
+/* Styling for the first row with colspan=2 */
+.dev-table table tr:first-child {
+    background-color: #ff0000; /* Replace with your desired color */
+    color: #ffffff; /* Replace with your desired text color */
+  }
+  
+  /* Styling for the second row with colspan=2 */
+  .dev-table table tr:nth-child(2) {
+    background-color: #0b320b; /* Replace with your desired color */
+    color: #ffffff; /* Replace with your desired text color */
+  }
+  
+  /* Styling for the third row with colspan=2 */
+  .dev-table table tr:nth-child(3) {
+    background-color: #121241; /* Replace with your desired color */
+    color: #ffffff; /* Replace with your desired text color */
+  }
+  
+  /* Styling for the fourth row with colspan=2 */
+  .dev-table table tr:nth-child(4) {
+    background-color: #ab8b31; /* Replace with your desired color */
+    color: #ffffff; /* Replace with your desired text color */
+  }
+  
+
 
 .project-tables{
     display: flex;
