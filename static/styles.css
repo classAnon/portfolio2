@@ -133,29 +133,26 @@ blockquote{
     justify-content: center;
 }
 
-/* Styling for the first row with colspan=2 */
-.dev-table table tr:first-child {
+.copywriting-row {
     background-color: #ff0000; /* Replace with your desired color */
-    color: #ffffff; /* Replace with your desired text color */
-  }
-  
-  /* Styling for the second row with colspan=2 */
-  .dev-table table tr:nth-child(2) {
+    color: #ffffff;
+}
+
+.real-estate-row {
     background-color: #0b320b; /* Replace with your desired color */
-    color: #ffffff; /* Replace with your desired text color */
-  }
-  
-  /* Styling for the third row with colspan=2 */
-  .dev-table table tr:nth-child(3) {
+    color: #ffffff;
+}
+
+.tech-writing-row {
     background-color: #121241; /* Replace with your desired color */
-    color: #ffffff; /* Replace with your desired text color */
-  }
-  
-  /* Styling for the fourth row with colspan=2 */
-  .dev-table table tr:nth-child(4) {
+    color: #ffffff;
+}
+
+.business-finance-row {
     background-color: #ab8b31; /* Replace with your desired color */
-    color: #ffffff; /* Replace with your desired text color */
-  }
+    color: #ffffff;
+}
+
   
 
 
