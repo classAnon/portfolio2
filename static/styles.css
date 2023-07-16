@@ -73,7 +73,7 @@ li{
 
 .about-button:hover{
     background-color: #fff;
-    color: red !important;
+    color: rgb(0, 0, 0) !important;
     border: 1px solid red;
     cursor: pointer;
 }
@@ -128,27 +128,27 @@ blockquote{
     padding: 2vh;
 }
 
-.dev-table{
+#dev-table{
     display: flex;
     justify-content: center;
 }
 
-.copywriting-row {
+#copywriting-row {
     background-color: #ff0000; /* Replace with your desired color */
     color: #ffffff;
 }
 
-.real-estate-row {
+#real-estate-row {
     background-color: #0b320b; /* Replace with your desired color */
     color: #ffffff;
 }
 
-.tech-writing-row {
+#tech-writing-row {
     background-color: #121241; /* Replace with your desired color */
     color: #ffffff;
 }
 
-.business-finance-row {
+#business-finance-row {
     background-color: #ab8b31; /* Replace with your desired color */
     color: #ffffff;
 }
@@ -188,7 +188,8 @@ table a{
 }
 
 table a:hover{
-    background-color: rgb(187, 185, 185); 
+    background-color: red;
+    opacity: 0.5; 
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
