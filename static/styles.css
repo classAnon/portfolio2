@@ -74,10 +74,10 @@ li{
 .about-button:hover{
     background-color: #fff;
     color: red;
-    border-color: red;
-    border: 1px bold red;
+    border: 1px solid red;
     cursor: pointer;
 }
+
 
 .about {
     display: flex;
@@ -191,13 +191,15 @@ table td {
 
 
 ul a:hover{
-    background-color: white;
+    background-color: red;
+    opacity: 0.5;
     cursor: pointer;
     border-radius: 45px;
 }
 
 .socials a:hover{
-    background-color: white;
+    background-color: red;
+    opacity: 0.5;
     cursor: pointer;
     border-radius: 15px;
 }
