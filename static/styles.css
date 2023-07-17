@@ -71,7 +71,7 @@ li{
     margin-top: 5vh;
 }
 
-.about-button:hover{
+.about-button:hover, .resume-button:hover{
     background-color: #000;
     border: 1px solid red;
     cursor: pointer;
@@ -147,7 +147,7 @@ blockquote{
 }
 
 #copywriting-row {
-    background-color: #ff0000; /* Replace with your desired color */
+    background-color: purple; /* Replace with your desired color */
     color: #ffffff;
 }
 
@@ -201,8 +201,9 @@ table a{
 }
 
 table a:hover{
+    background-color: #fff;
+    opacity: 0.5;
     cursor: pointer;
-    padding: 10px;
 }
 
 table tr {
