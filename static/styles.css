@@ -110,6 +110,17 @@ li{
     align-items: flex-end;
 }
 
+.about .resume-button{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2.5vh;
+    background-color: red;
+    margin-top: 5vh;
+}
+
 blockquote{
     padding: 15px;
 }
