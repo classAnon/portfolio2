@@ -110,7 +110,7 @@ li{
     align-items: flex-end;
 }
 
-.about .resume-button{
+.resume-button{
     display: flex;
     align-items: center;
     justify-content: center;
