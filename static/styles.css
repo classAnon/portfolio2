@@ -202,7 +202,7 @@ table a{
 
 table a:hover{
     background-color: #fff;
-    padding: 2vw;
+    background: transparent;
     cursor: pointer;
 }
 
