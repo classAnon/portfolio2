@@ -119,8 +119,8 @@ li{
     font-size: 18px;
     border-radius: 2.5vh;
     background-color: red;
-    margin: 5vh;
-    padding: 20vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 blockquote{
