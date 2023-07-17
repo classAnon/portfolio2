@@ -201,10 +201,8 @@ table a{
 }
 
 table a:hover{
-    border: 1px solid red;
     cursor: pointer;
     padding: 10px;
-    border-radius: 50%;
 }
 
 table tr {
