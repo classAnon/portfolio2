@@ -218,6 +218,11 @@ table th {
     color: white;
 }
 
+.colspan-th {
+    background-image: none!important;
+}
+
+
 table td {
     padding: 10px;
     background: linear-gradient(to right, rgb(105, 104, 104), rgb(173, 170, 170));
